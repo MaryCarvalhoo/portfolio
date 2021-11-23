@@ -17,7 +17,7 @@
 }
 
 
-/* Recent Projects*/
+/* SERVICES*/
 .UIeUXDesign {
     display: flex;
     width: 84%;
@@ -60,19 +60,23 @@
     padding-bottom: 4rem;
 }
 
-.second-project {
-    cursor: pointer;
+.PixelPerfect {
+    display: flex;
     width: 84%;
     height: 500px;
-    background-color: orange;
     margin-bottom: 4rem;
-
+    padding-left: 36px;
+    padding-right: 36px;
+    align-items: center;
+    background: #252525; 
 }
 
-.third-project {
-    cursor: pointer;
-    width: 84%;
-    height: 500px;
-    background-color: green;
-    margin-bottom: 4rem;
+.PixelPerfect h1 {
+    font-size: 36px;
+    color: var(--white);
+    font-family: 'Poppins';
+    font-weight: 400;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem; 
 }
